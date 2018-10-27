@@ -14,11 +14,11 @@ namespace Steganography
             _form = form;
         }
 
-        /// <summary>
-        /// Covnerts string to byte array
-        /// </summary>
-        /// <param name="binary"></param>
-        /// <returns></returns>
+        /* <summary>
+         Covnerts string to byte array
+         </summary>
+         <param name="binary"></param>
+         <returns></returns>*/
         public byte[] StringToByteArray(string binary)
         {
             var list = new List<byte>();
@@ -29,11 +29,11 @@ namespace Steganography
             return list.ToArray();
         }
 
-        /// <summary>
-        /// Creates a bitmap object from byte array
-        /// </summary>
-        /// <param name="data"></param>
-        /// <returns></returns>
+        /* <summary>
+         Creates a bitmap object from byte array
+         </summary>
+         <param name="data"></param>
+         <returns></returns>*/
         public Bitmap ByteArrayToBitmap(byte[] data)
         {
             int index = 0;
